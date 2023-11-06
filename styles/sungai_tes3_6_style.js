@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_adm_pku_tes_2 = function(feature, resolution){
+var style_sungai_tes3_6 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -16,12 +16,12 @@ var style_adm_pku_tes_2 = function(feature, resolution){
     var textAlign = "left";
     var offsetX = 8;
     var offsetY = 3;
-    var placement = 'point';
+    var placement = 'line';
     if ("" !== null) {
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(35,35,35,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 4}),fill: new ol.style.Fill({color: 'rgba(125,139,143,0.0)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(31,120,180,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 3}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)

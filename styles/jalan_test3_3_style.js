@@ -21,7 +21,7 @@ var style_jalan_test3_3 = function(feature, resolution){
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(133,182,111,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 0}),
+        stroke: new ol.style.Stroke({color: 'rgba(162,162,162,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 2}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
